@@ -1,0 +1,28 @@
+{
+  "phase_names": [
+    "baseline",
+    "train",
+    "post_train"
+  ],
+  "phase_timestamps": [
+    "2024-05-02T09:00:00Z",
+    "2024-05-02T09:05:00Z",
+    "2024-05-02T09:10:00Z",
+    "2024-05-02T09:15:00Z"
+  ],
+  "phase_groups": {
+    "single_training": [
+      "baseline",
+      "train",
+      "post_train"
+    ]
+  },
+  "training_frequency_hz": 8,
+  "stim_location": 101,
+  "stim_location_label": "organoid_1_training_electrode",
+  "stim_pulse_timestamps": [],
+  "mask_stim": true,
+  "mask_window_ms": 3.0,
+  "time_reference": "UTC",
+  "notes": "Replace these values with the timestamps, frequency, and electrode/location from the notebook or trigger logs."
+}

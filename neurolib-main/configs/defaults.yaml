@@ -1,0 +1,30 @@
+# Default configuration values for all protocols
+# These values are used if not explicitly overridden in protocol-specific configs
+
+# File pattern for loading data
+file_pattern: "*.csv"
+
+# Raster plot threshold (used in base protocol)
+raster_threshold: null
+
+# FFT analysis parameters
+fft_resample_ms: 1
+fft_freq_cap: 10.0
+
+# Avalanche analysis parameters
+avalanche_threshold_s: 0.1
+
+# Firing rate analysis parameters
+firing_rate_threshold: 0.0
+firing_rate_bin_size_s: 1.0
+
+# Power spectral density parameters
+psd_nperseg: null
+psd_noverlap: null
+
+# Granger causality parameters
+gc_resample_interval: "1s"
+gc_max_lag: 5
+
+# Bin size for various analyses
+bin_size_s: 1.0

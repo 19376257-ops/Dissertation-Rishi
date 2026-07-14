@@ -1,0 +1,5 @@
+# IPP Protocol specific configuration
+# These values override the defaults for the IPP protocol
+
+# Artifact threshold for noise reduction
+ipp_artefact_thresh: 8.0

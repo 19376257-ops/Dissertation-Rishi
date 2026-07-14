@@ -1,0 +1,18 @@
+# STDP Protocol specific configuration
+# These values override the defaults for the STDP protocol
+
+# Artifact threshold for noise reduction
+artefact_thresh: 8.0
+
+# UMAP embedding parameters
+umap_n_components: 3
+umap_bin_size_ms: 10
+umap_random_state: 42
+
+# PCA embedding parameters
+pca_n_components: 3
+pca_bin_size_ms: 10
+pca_random_state: 42
+
+# PRC analysis parameters
+prc_num_bins: 50
